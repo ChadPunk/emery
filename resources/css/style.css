@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+ul li {
+  margin-right: 30px;
+}
+
+nav {
+  border-bottom: solid 3px #8ABE93;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: grey !important;
+}
+
+.land_main {
+  width: 100%;
+  max-height: 100%;
+  min-height: 456px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images/land.png');
+  color: white;
+  font-weight: 900;
+}
+
+.center {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.learnmore {
+  background: #8ABE93;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  padding: 15px 32px;
+}
+
+.tasks {
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.col-lg {
+  color: black;
+  text-align: center;
+}
+
+.test {
+  font-size: 3em;
+  border-radius: 50%;
+  border: solid white;
+  line-height: 2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  display: inline-block;
+  transition: 0.5s;
+  border: solid 1.5px black;
+}
+
+.mar {
+  margin-top: 10px;
+}
+
+.name{
+  background: #f2f2f2;
+  width: 100%;
+  padding: 10px;
+  text-align: justify;
+}
+
+.experaince{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images/exp.png');
+  color: white;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.title-help{
+  background: white;
+  color: black;
+  max-width: 350px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.26);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.26);
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.26);
+}
+
+.title-help h3{
+  padding: 5px;
+  margin: 2px;
+}
+
+.card{
+  background: white;
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+.services{
+  background: blue;
+  margin: 5px;
+  padding: 5px;
+}
+
+.experaince a{
+  color: white;
+}
+
+.experaince a:hover{
+  color: white;
+  text-decoration: none;
+}
+.disabled{
+  display: none;
+}
+
+footer{
+  border-top: solid 3px #f2f2f2;
+  padding: 5px;
+  text-align: center;
+}
