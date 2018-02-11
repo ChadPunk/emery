@@ -28,7 +28,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url('../images/land.png');
+  background-image: url('../images/land.jpg');
   color: white;
   font-weight: 900;
 }
@@ -89,7 +89,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url('../images/exp.png');
+  background-image: url('../images/exp.jpg');
   color: white;
   font-weight: 900;
   padding: 10px;
