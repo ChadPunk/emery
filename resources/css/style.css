@@ -37,6 +37,15 @@ nav {
   position: absolute;
   top: 45%;
   left: 50%;
+  width: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.center-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
   transform: translate(-50%, -50%);
 }
 
@@ -47,6 +56,7 @@ nav {
   text-decoration: none;
   color: white;
   padding: 15px 32px;
+  font-size: 14px;
 }
 
 .tasks {
@@ -58,6 +68,10 @@ nav {
 .col-lg {
   color: black;
   text-align: center;
+}
+
+.col-md {
+  padding: 5px;
 }
 
 .test {
@@ -77,14 +91,14 @@ nav {
   margin-top: 10px;
 }
 
-.name{
+.name {
   background: #f2f2f2;
   width: 100%;
   padding: 10px;
   text-align: justify;
 }
 
-.experaince{
+.experaince {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,46 +109,89 @@ nav {
   padding: 10px;
 }
 
-.title-help{
+.title-help {
   background: white;
   color: black;
   max-width: 350px;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.26);
-  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.26);
-  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.26);
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.26);
 }
 
-.title-help h3{
+.title-help h3 {
   padding: 5px;
   margin: 2px;
 }
 
-.card{
+.card {
   background: white;
   max-width: 300px;
   margin-top: 10px;
 }
 
-.services{
+.services {
   background: blue;
   margin: 5px;
   padding: 5px;
 }
 
-.experaince a{
+.experaince a {
   color: white;
 }
 
-.experaince a:hover{
+.experaince a:hover {
   color: white;
   text-decoration: none;
 }
-.disabled{
+
+.disabled {
   display: none;
 }
 
-footer{
+.service {
+  width: 100%;
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images/services2.jpg');
+}
+
+.text {
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.shade {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: static;
+}
+
+.info {
+  padding: 10px;
+  background: #f2f2f2;
+  text-align: center;
+  font-size: 16px;
+}
+
+.box {
+  background: #e2e2e2;
+  width: 290px;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.web {
+  border-bottom: solid 2px #f2f2f2;
+}
+
+footer {
   border-top: solid 3px #f2f2f2;
   padding: 5px;
   text-align: center;
