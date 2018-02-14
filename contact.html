@@ -33,25 +33,27 @@
                     <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Services</a>
+                    <a class="nav-link" href="services.html">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/emery/contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
     <div class="top animated fadeIn">
         <div class="container">
+            <div class="overlay1">
             <div class="center1">
                 <h1>Contact Us</h1><br>
                 <div><a href="#contact" class="btn-arrow"></a></div>
+            </div>
             </div>
         </div>
     </div>
 
     <section class="main" id="contact">
-        <div class="container">
+        <div class="container add-shadow">
             <div class="text-md-center">
                 <h2>Give us a shout!</h2>
                 <p>Tell us what we can create for you</p>
@@ -63,21 +65,10 @@
             </span>
                         <br><br>
                         <h4>Web Devolpment</h4>
-                        <div class="btn btn-success" onClick="webdev()">Click Here!</div>
-                        <div id="contactForm" class="popuptext">
-
-                            <h1>Keep in touch!</h1>
-                            <small>I'll get back to you as quickly as possible</small>
-    
-                            <form action="#">
-                                <input placeholder="Name" type="text" required />
-                                <input placeholder="Email" type="email" required />
-                                <input placeholder="Subject" type="text" required />
-                                <textarea placeholder="Comment"></textarea>
-                                <input class="formBtn" type="submit" />
-                                <input class="formBtn" type="reset" />
-                            </form>
-                        </div>
+                        <p><small>We have been in the center of todays best web development practices. Let us know how we can create you a fresh, new website, or make your exsisting one even better.</small></p>
+                       <div class="box">
+                                <a class="btn btn-success" href="#popup1">Click Me!</a>
+                            </div>
                     </div>
                     <div class="col-lg mar">
                         <span class="test">
@@ -85,7 +76,9 @@
             </span>
                         <br><br>
                         <h4>Web Marketing</h4>
-                        <div class="btn btn-success" onclick="webmarket()" id="contact">Click Here!</div>
+                        <div class="box">
+                                <a class="btn btn-success" href="#popup1">Click Me!</a>
+                            </div>
                     </div>
                     <div class="col-lg mar">
                         <span class="test">
@@ -93,16 +86,44 @@
             </span>
                         <br><br>
                         <h4>Web Design</h4>
-                        <div class="btn btn-success" onclick="webdesign()" id="contact">Click Here!</div>
+                        <div class="box">
+                                <a class="btn btn-success" href="#popup1">Click Me!</a>
+                            </div>
                     </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <br><br>
+    <hr>
     <footer>
         <h5><strong>E</strong><i>mery</i> &copy; 2018</h5>
     </footer>
+    <!-- popup form -->
+
+
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>How can we make you better?</h2>
+                    <small>We will get back to you as quickly as possible.</small>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        
+                
+                            <form action="#">
+                                <input placeholder="Name" type="text" required />
+                                <input placeholder="Email" type="email" required />
+                                <input placeholder="Subject" type="text" required />
+                                <textarea placeholder="Comment"></textarea>
+                                <div class="btn btn-success formBtn" type="submit">Submit</div>
+                                <button class="btn btn-success formBtn" type="reset" value="reset">Reset</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+
+    
 
 
 
@@ -113,7 +134,7 @@
 
 
 
-    <script src="./resources/JS/contact.js"></script>
+   
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
