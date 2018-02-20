@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
 </head>
 
-   <body>
+<body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light nav-padding add-shadow bg-light" id="home">
         <a class="navbar-brand nav-padding" href="#">
       <img src="./resources/images/logo.png"  style="max-height: 60px;" class="d-inline-block align-top" alt="">
@@ -44,100 +44,66 @@
     <div class="top animated fadeIn">
         <div class="container">
             <div class="center1">
-                <h1>Contact Us</h1><br>
-                <div><a href="#contact" class="btn-arrow"></a></div>
-            </div>
-            </div>
-        </div>
-        <br><br>
-           <hr>
-    <section class="main" id="contact">
-        <div class="container">
-            <div class="text-md-center">
-                <h2>Give us a shout!</h2>
-                <p>Tell us what we can create for you</p>
-                
-                <div class="row animated slideInUp">
-                    <div class="col-sm bg1 zoom">
-                        <span class="test">
-                <i class="fas fa-globe fa-sm animated zoomIn"></i>
-            </span>
-                        <br><br>
-                        <h4>Web Devolpment</h4>
-                        <p><small>We have been in the center of todays best web development practices. Let us know how we can create you a fresh, new website, or make your exsisting one even better.</small></p>
-                       
-                                <a class="btn btn-success" href="#popup1"><span>Click Me</span></a>
-                            
-                    </div>
-                    <div class="col-sm bg2 zoom">
-                        <span class="test">
-              <i class="fab fa-adversal fa-sm animated zoomIn"></i>
-            </span>
-                        <br><br>
-                        <h4>Web Marketing</h4>
-                        <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolore, est alias iste voluptas fugiat mollitia aliLorem ipsum dolor sit amet.</small></p>
-                        
-                               <a class="btn btn-success" href="#popup1"><span>Click Me</span></a>
-                            
-                    </div>
-                    <div class="col-xl bg3 zoom">
-                        <span class="test">
-                <i class="fab fa-first-order fa-sm animated zoomIn"></i>
-            </span>
-                        <br><br>
-                        <h4>Web Design</h4>
-                        <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nemo saepe porro possimus pariatur molestias eius perspiciatis rem iusto commodi perferendis dicta expedita quod ipsum error architecto, sapiente quia, id itaque, unde vel quas similique. Fugiat autem optio molestias, quisquam voluptatibus aspernatur. Repellendus sequi suscipit provident corrupti cumque quod alias.</small></p>
-                        
-                                <a class="btn btn-success" href="#popup1"><span>Click Me</span></a>
-                            
-                    </div>
-                    </div>
+                <h1><strong>Contact Us</strong></h1>
                 </div>
             </div>
-    </section>
+        </div>
+    <br>
     <hr>
-    <footer>
-        <h5><strong>E</strong><i>mery</i> &copy; 2018</h5>
-    </footer>
-    <!-- popup form -->
+    <section class="main" id="contact">
+        <div class="container">
+                <div class="container2">
+                    <div class="wrapper animated bounceInLeft">
+                        <div class="company-info">
+                        </div>
+                        <div class="contact">
+                                <div class="text-md-center">
+                <h2>Give us a shout!</h2>
+                <p>Tell us what we can create for you</p>
+                        
+
+                        </div>
+                            <form>
+                                <p>
+                                    <label>Name</label>
+                                    <input id="name"type="text" name="name" required>
+                                </p>
+                                <p>
+                                    <label>Company</label>
+                                    <input id="company"type="text" name="company">
+                                </p>
+                                <p>
+                                    <label>Email Address</label>
+                                    <input type="email" name="email" required>
+                                </p>
+                                <p>
+                                    <label>Phone Number</label>
+                                    <input id="phone"type="text" name="phone">
+                                </p>
+                                <p class="full">
+                                    <label>Message</label>
+                                    <textarea id="message" name="message" rows="5" type="text" required></textarea>
+                                </p>
+                                <div class="btn full" type="submit" onClick="email()"><span>Submit</span>
+                                </div>
+                                  <button class="btn full" type="reset"><span>Reset</span>
+                                </button>
+                                
+                            </form>
+                    </div>
+                        </div>
+                </div>
+                
+            </div>
+        
+</section>
+<br><br>
+<footer>
+    <h5>
+      <strong>E</strong><i>mery</i> &copy; 2018</h5>
+  </footer>
 
 
-          <div class="wrapper1 overlay" id="popup1">
-      <a class="close" href="#">&times;</a>
-    <div class="wrapper animated bounceInLeft">
-      <div class="contact">
-        <a class="close" href="#">&times;</a>
-        <h3>Email Us</h3>
-        <form>
-          <p>
-            <label>Name</label>
-            <input type="text" name="name">
-          </p>
-          <p>
-            <label>Company</label>
-            <input type="text" name="company">
-          </p>
-          <p>
-            <label>Email Address</label>
-            <input type="email" name="email">
-          </p>
-          <p>
-            <label>Phone Number</label>
-            <input type="text" name="phone">
-          </p>
-          <p class="full">
-            <label>Message</label>
-            <textarea name="message" rows="5"></textarea>
-          </p>
-          <p class="full">
-            <button>Submit</button>
-          </p>
-        </form>
-      </div>
-    </div>
-  </div>
-
-    
 
 
 
@@ -145,11 +111,7 @@
 
 
 
-
-
-
-   
-
+   <script src="resources/JS/contact.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
