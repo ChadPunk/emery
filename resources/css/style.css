@@ -21,6 +21,22 @@ nav {
     color: grey !important;
 }
 
+.about-us{
+        width: 100%;
+        max-height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url('../images/aboutpic.jpg');
+        color: white;
+        font-weight: 900;
+        text-align: center;
+}
+
+.founders{
+    padding: 5px;
+}
+
 .land_main {
     width: 100%;
     max-height: 100%;
@@ -70,6 +86,12 @@ nav {
 .col-lg {
     color: black;
     text-align: center;
+}
+
+.col {
+    color: black;
+    text-align: justify;
+    padding: 10px;
 }
 
 .col-md {
@@ -248,10 +270,12 @@ footer {
     text-align: center;
     padding-top: 8.2em
 }
+
 .center1 h1 {
     text-align: center;
     margin-top: 4em;
 }
+
 .btn-success {
     font-size: 1em;
     padding: 10px;
@@ -263,6 +287,7 @@ footer {
     cursor: pointer;
     transition: all 0.3s ease-out;
 }
+
 .btn span {
     cursor: pointer;
     display: inline-block;
@@ -278,13 +303,16 @@ footer {
     right: -20px;
     transition: 0.5s;
 }
+
 .btn:hover span {
     padding-right: 10px;
 }
+
 .btn:hover span:after {
     opacity: 1;
     right: 0;
 }
+
 .overlay {
     width: 100%;
     max-height: 100%;
@@ -292,41 +320,50 @@ footer {
     border-radius: 0 0 50% 50% / 15%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 /* Form box style */
+
 .container2 {
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
-
 }
+
 ul {
     list-style: none;
     padding: 0;
 }
+
 .brand {
     text-align: center;
 }
+
 .brand span {
     color: #fff;
 }
+
 .wrapper {
     box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
 }
-.wrapper > * {
+
+.wrapper>* {
     padding: 1em;
 }
+
 .company-info {
     background-image: url(../images/plant.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .company-info h3,
 .company-info ul {
     text-align: center;
     margin: 0 0 1rem 0;
 }
+
 .contact {
     background: #e6ffee;
 }
@@ -380,11 +417,9 @@ ul {
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
-
-    .wrapper > * {
+    .wrapper>* {
         padding: 2em;
     }
-
     .company-info h3,
     .company-info ul,
     .brand {
