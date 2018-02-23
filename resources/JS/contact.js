@@ -1,4 +1,4 @@
-function email() {
+function exportme() {
     var trucks = document.getElementById('name').value;
     var stops = document.getElementById('company').value;
     var piece = document.getElementById('phone').value;
