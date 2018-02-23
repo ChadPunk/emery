@@ -4,7 +4,7 @@ function email() {
     var phone = document.getElementById('phone').value;
     var message = document.getElementById('message').value;
     
-    window.location.replace = ('mailto:jehoopz92@gmail.com;chade2540@gmail.com?Subject=I would like some information&body= Hello my name is '+name+'. '+message+'. Below is my contact information. Company Name:'+company+', Phone Number:'+phone+'');
-
+    window.location.href = ('mailto:jehoopz92@gmail.com;chade2540@gmail.com?Subject=I would like some information&body= Hello my name is '+name+'. '+message+'. Below is my contact information. Company Name:'+company+', Phone Number:'+phone+'');
+ 
 }
 
