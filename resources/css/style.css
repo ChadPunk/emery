@@ -426,3 +426,84 @@ ul {
         text-align: left;
     }
 }
+
+/* Porfolio Page */
+.start{
+    margin-bottom: 3em;
+}
+.cont{
+    margin-bottom: 3em;
+}
+.overlay2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo-brand{
+    background-image: url(../images/logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mobile-app{
+    background-image: url(../images/app.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.web-dev{
+    background-image: url(../images/code.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.end{
+    background-image: url(../images/coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.text-left, .text-center{
+    padding-top: 2em;
+}
+.detail{
+    background: #8ABE93;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 14px;
+}
+.button{
+    margin: 40px;
+}
+.button a:hover{
+    background: rgb(104, 194, 101);
+    text-decoration: none;
+    color: white;
+}
+.col-sm{
+    text-align: center;
+}
+.text h4{
+    padding: 2em;
+}
+.underline{
+    letter-spacing: 3px;
+    border-bottom: 1px solid green;
+    padding-bottom: 5px;
+}
+/* LARGE SCREENS */
+
+@media(min-width:700px) {
+    .left{
+        text-align: left;
+    }
+    .right{
+        text-align: right;
+    }
+}
