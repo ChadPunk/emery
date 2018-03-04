@@ -415,7 +415,9 @@ ul {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 2fr;
+        
     }
+    
     .wrapper>* {
         padding: 2em;
     }
