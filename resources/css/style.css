@@ -530,12 +530,15 @@ ul {
     background-image: url(../images/plant.jpeg);
     background-size: cover;
     background-position: center;
-}
-.col-sm-4{
-    margin-right: 5em;
     
 }
-#link{
+.col-sm-4, .col-sm-3{
+    margin-right: 5em;
+    
+    
+}
+
+#link, #link1{
    height: 15px;
 }
 /* Logo page */
