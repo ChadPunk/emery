@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
 </head>
 
 <body>
@@ -51,7 +53,154 @@
         </div>
     </div>
     <br>
-    <hr>
+    <div class="alert alert-dismissible alert-success text-center">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Please fill out one of the two forms below.</strong><br><br>
+        <p>So we can better assist you we recommend completing the top form. Thank you!</p>
+    </div>
+    <br>
+    <section class="main1">
+        <div class="container5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <form action="form.php">
+                        <h6>Which of the following are you looking for?</h6>
+                        <h6><small>*Select all that apply*</small></h6>
+                        <p>
+                            <input type="checkbox" id="test1" />
+                            <label for="test1">Logo</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test2" />
+                            <label for="test2">Website</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test3" />
+                            <label for="test3">Marketing</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test4" />
+                            <label for="test4">Website Re-design</label>
+                        </p>
+
+                    </form>
+                </div>
+                <div class="col-sm-3">
+                    <form action="form.php">
+                        <h6>Do you currently have a website?</h6>
+                        <h6><small>*If so, please provide the link*</small></h6>
+                        <p>
+                            <input type="checkbox" id="test5" />
+                            <label for="test5">Yes</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test6" />
+                            <label for="test6">No</label>
+                        </p>
+                        <p>
+                            <label>Link</label>
+                            <input id="link" type="text" name="link">
+                        </p>
+
+
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <form action="form.php">
+                        <h6>What kind of website are you looking for?</h6>
+                        <h6><small>*Select all that apply*</small></h6>
+                        <p>
+                            <input type="checkbox" id="test7" />
+                            <label for="test7">Personal</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test8" />
+                            <label for="test8">Business</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test9" />
+                            <label for="test9">Art</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test10" />
+                            <label for="test10">Portfolio</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test11" />
+                            <label for="test11">Image Gallery</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test12" />
+                            <label for="test12">E-commerce</label>
+                        </p>
+
+                    </form>
+                </div>
+                <div class="col-sm-4">
+                    <form action="form.php">
+                        <h6>What features are you looking for?</h6>
+                        <h6><small>*Select all that apply*</small></h6>
+                        <p>
+                            <input type="checkbox" id="test13" />
+                            <label for="test13">Online Chat</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test14" />
+                            <label for="test14">Search Engine</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test15" />
+                            <label for="test15">Accept Credit Cards</label>
+                        </p>
+                         <p>
+                            <input type="checkbox" id="test16" />
+                            <label for="test16">Inventory Search</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test17" />
+                            <label for="test17">Invoicing</label>
+                        </p>
+
+                    </form>
+                </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                    <form action="form.php">
+                        <h6>Web Hosting</h6>
+                        <h6><small>*Please select one*</small></h6>
+                        <p>
+                            <input type="checkbox" id="test18" />
+                            <label for="test18">We will host our site ourselves</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test19" />
+                            <label for="test19">We will find another solution for hosting</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="test20" />
+                            <label for="test20">We will allow EmeryWD to handle the hosting</label>
+                        </p>
+    
+                       
+
+                    </form>
+                </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+        </div>
+    </section>
+
     <section class="main" id="contact">
         <div class="container">
             <div class="container2">
@@ -61,8 +210,8 @@
                     <div class="contact">
                         <div class="text-md-center">
                             <h2>Give us a shout!</h2>
-                            <p>Tell us what we can create for you</p>
-                            <small>*Please fill out the form below with as much detail as possible so we can better assist you*</small>
+                            <p>We will get back to you as soon as possible</p>
+                            <!--<small>*Please fill out the form below with as much detail as possible so we can better assist you*</small>-->
 
 
                         </div>
@@ -85,15 +234,15 @@
                             </p>
                             <p class="full">
                                 <label>Message</label>
-                                <textarea id="message" name="message" rows="5" type="text"></textarea>
+                                <textarea class="scroll" id="message" name="message" rows="5" type="text"></textarea>
                                 <div class="form-group">
                                     <label for="exampleInputFile">File input</label>
                                     <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-                                  </div>
+                                </div>
                             </p>
-                            <button class="btn full" type="submit" name="submit" >Submit</button>
+                            <button class="btn full" type="submit" name="submit">Submit</button>
                             <button class="btn full" type="reset"><span>Reset</span>
-                                </button> 
+                                </button>
 
                         </form>
                     </div>
@@ -114,6 +263,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>
 
 </html>

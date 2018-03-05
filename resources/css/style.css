@@ -391,8 +391,11 @@ ul {
 .contact form input,
 .contact form textarea {
     width: 100%;
+    border: 1px solid gray;
+}
+.contact form textarea{
     padding: 1em;
-    border: 1px solid #00cc41;
+    height: 10em;
 }
 
 .contact form .btn {
@@ -400,7 +403,9 @@ ul {
     border: 0;
     text-transform: uppercase;
 }
-
+.scroll::-webkit-scrollbar {
+    display: none;
+  }
 .contact form .btn:hover,
 .contact form .btn:focus {
     background: #008028;
@@ -521,7 +526,18 @@ ul {
         margin: 5em;
     }
 }
-
+.main1{
+    background-image: url(../images/plant.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.col-sm-4{
+    margin-right: 5em;
+    
+}
+#link{
+   height: 15px;
+}
 /* Logo page */
 .bg-wood{
     background-image: url(../images/wood.jpeg);
