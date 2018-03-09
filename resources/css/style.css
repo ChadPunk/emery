@@ -545,20 +545,17 @@ footer {
     background-image: url(../images/plant.jpeg);
     background-size: cover;
     background-position: center;
-
+}
+.col-sm-4, .col-sm-6, .col-sm-3{
+    text-align: center;
+}
+.col-sm-6{
+   margin-left: 5em;
+}
+@media(min-width:700px) {
+    
 }
 
-.col-sm-4,
-.col-sm-3 {
-    margin-right: 5em;
-
-
-}
-
-#link,
-#link1 {
-    height: 15px;
-}
 
 
 /* Success */

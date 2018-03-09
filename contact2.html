@@ -61,51 +61,67 @@
         <div class="container5">
             <div class="row">
                     <form action="contact1.php" role="form" method="post">
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                             <div class="form-group">
-                                <label for="form_name">Firstname *</label>
+                                <label for="form_name">First Name *</label>
                                 <input id="form_name" type="text" name="name" class="form-control"  required="required" data-error="Firstname is required.">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Last Name *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
                                 <div class="form-group">
                                     <label for="form_email">Email *</label>
                                     <input id="form_email" type="email" name="mail" class="form-control"  required="required" data-error="Valid email is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="form_phone">Phone</label>
+                                    <input id="form_phone" type="tel" name="phone" class="form-control" >
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
                 <div class="col-sm-4">
                         <h6>Which of the following are you looking for?</h6>
                         <h6><small>*Select all that apply*</small></h6>
                         <p>
-                            <input type="checkbox" name="projects[]" value="logo"/>
+                            <input type="checkbox" name="checkbox1"/>
                             <label for="test1">Logo</label>
                         </p>
                         <p>
-                            <input type="checkbox" name="projects[]" value="website" />
+                            <input type="checkbox" name="checkbox2"/>
                             <label for="test2">Website</label>
                         </p>
                         <p>
-                            <input type="checkbox" name="projects[]" value="marketing"/>
+                            <input type="checkbox" name="checkbox3"/>
                             <label for="test3">Marketing</label>
                         </p>
                         <p>
-                            <input type="checkbox" name="projects[]" value="websitere"/>
+                            <input type="checkbox" name="checkbox4"/>
                             <label for="test4">Website Re-design</label>
                         </p>
 
-                    </form>
+                    
                 </div>
                 <div class="col-sm-3">
                         <h6>Do you currently have a website?</h6>
                         <h6><small>*If so, please provide the link*</small></h6>
                         <p>
-                            <input type="checkbox" name="test5" />
+                            <input type="checkbox" name="checkbox5" />
                             <label for="test5">Yes</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test6" />
+                            <input type="checkbox" name="checkbox6"  />
                             <label for="test6">No</label>
                         </p>
                         <p>
@@ -125,27 +141,27 @@
                         <h6>What kind of website are you looking for?</h6>
                         <h6><small>*Select all that apply*</small></h6>
                         <p>
-                            <input type="checkbox" id="test7" />
+                            <input type="checkbox" name="checkbox7"  />
                             <label for="test7">Personal</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test8" />
+                            <input type="checkbox" name="checkbox8"  />
                             <label for="test8">Business</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test9" />
+                            <input type="checkbox" name="checkbox9"/>
                             <label for="test9">Art</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test10" />
+                            <input type="checkbox" name="checkbox10" />
                             <label for="test10">Portfolio</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test11" />
+                            <input type="checkbox" name="checkbox11" />
                             <label for="test11">Image Gallery</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test12" />
+                            <input type="checkbox" name="checkbox12" />
                             <label for="test12">E-commerce</label>
                         </p>
 
@@ -156,23 +172,23 @@
                         <h6>What features are you looking for?</h6>
                         <h6><small>*Select all that apply*</small></h6>
                         <p>
-                            <input type="checkbox" id="test13" />
+                            <input type="checkbox" name="checkbox13" />
                             <label for="test13">Online Chat</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test14" />
+                            <input type="checkbox" name="checkbox14" />
                             <label for="test14">Search Engine</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test15" />
+                            <input type="checkbox" name="checkbox15" />
                             <label for="test15">Accept Credit Cards</label>
                         </p>
                          <p>
-                            <input type="checkbox" id="test16" />
+                            <input type="checkbox" name="checkbox16" />
                             <label for="test16">Inventory Search</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test17" />
+                            <input type="checkbox" name="checkbox17" />
                             <label for="test17">Invoicing</label>
                         </p>
 
@@ -185,15 +201,15 @@
                         <h6>Web Hosting</h6>
                         <h6><small>*Please select one*</small></h6>
                         <p>
-                            <input type="checkbox" id="test18" />
+                            <input type="checkbox" name="checkbox18" />
                             <label for="test18">We will host our site ourselves</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test19" />
+                            <input type="checkbox" name="checkbox19" />
                             <label for="test19">We will find another solution for hosting</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test20" />
+                            <input type="checkbox" name="checkbox20" />
                             <label for="test20">We will allow EmeryWD to handle the hosting</label>
                         </p>
     
@@ -205,11 +221,11 @@
                         <h6>Do you have a budget for your project</h6>
                         <h6><small>*If so, please provide the amount*</small></h6>
                         <p>
-                            <input type="checkbox" id="test21" />
+                            <input type="checkbox" name="checkbox21" />
                             <label for="test21">Yes</label>
                         </p>
                         <p>
-                            <input type="checkbox" id="test22" />
+                            <input type="checkbox" name="checkbox22" />
                             <label for="test22">No</label>
                         </p>
                         <p>
@@ -217,10 +233,10 @@
                             <input id="link1" type="text" name="link1">
                         </p>
 
-
+                        <button type="submit" name="submit" Value="Submit">Submit</button>
                     
                 </div>
-                <input type="submit" name="submit" Value="Submit"/>
+                
             </form>
                         
                         
@@ -263,14 +279,14 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label for="form_name">Firstname *</label>
+                                                        <label for="form_name">First Name *</label>
                                                         <input id="form_name" type="text" name="name" class="form-control"  required="required" data-error="Firstname is required.">
                                                         <div class="help-block with-errors"></div>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label for="form_lastname">Lastname *</label>
+                                                        <label for="form_lastname">Last Name *</label>
                                                         <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required.">
                                                         <div class="help-block with-errors"></div>
                                                     </div>
