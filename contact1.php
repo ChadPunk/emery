@@ -7,14 +7,14 @@
 $from = 'Demo contact form <admin@opendoor-ff.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'jon@emerywd.com,ceo@emerywd.com';
+$sendTo = 'jon@emerywd.com';
 
 // subject of the email
 $subject = 'New message from contact form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Name', 'mail' => 'Email', 'checkbox1' => 'Logo', 'checkbox2' => 'Website', 'checkbox3' => 'Marketing', 'checkbox4' => 'Website Re-design');
+$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'checkbox1' => 'Logo');
 
 
 
