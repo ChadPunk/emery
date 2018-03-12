@@ -3,7 +3,7 @@
 $from = $_POST['email'];
 
 
-$sendTo = 'jon@emerywd.com';
+$sendTo = 'jon@emerywd.com,ceo@emerywd.com';
 
 
 $subject = 'New message from contact form';
