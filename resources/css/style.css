@@ -3,6 +3,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
 }
 
 ul li {
@@ -556,6 +557,8 @@ footer {
     background-image: url(../images/plant.jpeg);
     background-size: cover;
     background-position: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .col-sm-4, .col-sm-6, .col-sm-3{
     text-align: center;
@@ -711,5 +714,6 @@ footer {
 .checkbox input[type="checkbox"]:focus + label::before {
     outline: rgb(59, 153, 252) auto 5px;
 }
+
 
 
