@@ -557,8 +557,20 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-.col-sm-4 button{
-    margin: 20px;
+.col-sm-3 textarea{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.custom-file label{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-send{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 @media(min-width:700px) {
     .col-sm-4, .col-sm-6, .col-sm-3{
@@ -568,18 +580,14 @@ footer {
     .col-sm-6{
         margin-left: 20em;
     }
-    .col-sm-4 button{
-        display: block;
-        width: 100%;
-        margin-left: 14em;
-    }
     hr{
       margin: 0;  
     }
     .col-sm-4 .form-group{
-        margin: 0;
-        width: 100%;
-        padding: 5px;
+        width: 600px;
+    }
+    #form_name, #form_lastname, #form_email, #form_phone{
+        width: 400px;
     }
     .alert{
         max-height: 70px
@@ -587,6 +595,18 @@ footer {
     .main1{
         margin-left: .5%;
         margin-right: .5%;
+    }
+    .main1 {
+        background-image: url(../images/plant.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .btn-send{
+        margin-left: 20rem;
+        width: 25%;
+    }
+    .custom-file{
+        margin-top: 5rem;
     }
 }
 
